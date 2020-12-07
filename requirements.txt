@@ -1,6 +1,5 @@
 Django==3.0.5
 docker==4.1.0
-docker-compose==1.25.0
 Pillow==7.0.0
 requests==2.22.0
 djangorestframework==3.11.0
