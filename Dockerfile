@@ -14,4 +14,4 @@ COPY . /PNECBS
 
 USER 1000
 
-#CMD ["start", "--actions", "actions.actions"]
+
