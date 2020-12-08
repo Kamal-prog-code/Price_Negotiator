@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 {% load static%}
 {%block content%}
-<body>
+<body background="{%static 'imgs/back.jpeg'%}" style="background-size: 100%;"></body>
     {% if user.is_staff %}
           <div class="col-lg-6 offset-md-3" style="margin-top:6em">
               <div class="card card-body">
@@ -13,7 +13,7 @@
               </div>
           </div>
     {% else %}
-    <div style="height: 350px;background-image:url('/static/imgs/back.jpeg');background-size: 100%;" >
+    <div>
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-11">
@@ -22,7 +22,7 @@
             </div>
         </div>
     </div>
-    <div style="background-image:repeating-linear-gradient(to left, rgb(136, 135, 135),rgb(252, 234, 174));height: 400px;">
+    <div style="background-image:repeating-linear-gradient(to left, rgb(136, 135, 135),rgb(252, 234, 174));height: 500px;">
     <div class="container">
         <div class="row">
              <div class="col-md-3 card" style="margin-top: 4%; background-color:black;height: 50px;">

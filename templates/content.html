@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="https://npm-scalableminds.s3.eu-central-1.amazonaws.com/@scalableminds/chatroom@master/dist/Chatroom.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
-<body>
+<body background="{%static 'imgs/back.jpeg'%}" style="background-size: 100%;">
     <div class="chat-popup" id="myForm" style="margin-top: 20px;margin-left: 35px;">
         <div class="chat-container" style="height: 10px;width: max-content;"></div>
         <!-- <a class="btn-block btn-info btn-primary" href="{%url 'home'%}" style="text-align:center;height: 40px;font-size: large;">HOME</a> -->
@@ -24,7 +24,7 @@
         </script>
     </div>
 
-    <div class="card col-md-7 offset-md-3" id="concard" style="height: max-content;margin-left:550px;margin-top: 10px;margin-bottom: 200px;background-image: url(/static/imgs/back.jpg);">
+    <div class="card col-md-7 offset-md-3" id="concard" style="height: max-content;margin-left:550px;margin-top: 60px;margin-bottom: 200px;background-image: url(/static/imgs/back.jpg);">
         <div class="card col-md-15" style="margin-top: 10px;margin-bottom: 10px;">
             <p><u><center><b style="font-size: 25px;">{{overset.item.title}}</b></center></u></p>
             <p><img src="{{overset.item.photo.url}}" style="width: 220px;height: 250px;">

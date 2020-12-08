@@ -115,7 +115,7 @@ class ActionCI(Action):
         ent = tracker.latest_message['entities']
         
         response = cont_res_ret()
-
+        print(response)
         for e in ent:
             if e['entity'] == 'info':
                 val = e['value']
