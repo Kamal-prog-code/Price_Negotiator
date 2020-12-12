@@ -5,4 +5,4 @@ Chatbot                      -   RASA ( Natural Language Understanding )
 Python                        -   Programming language
 Negotiation               -   Rule-Based Approaches
 Web-Scrapping         -  Selenium & Beautiful soup
-SQLite3                        -   Database
+SQLite3                        -   Database.
