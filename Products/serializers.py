@@ -10,7 +10,7 @@ class ItemsSerializer(serializers.ModelSerializer):
     class Meta:
         model = Items
         fields = '__all__'
-
+#d
 class infoSerializer(serializers.ModelSerializer):
     class Meta:
         model = info
