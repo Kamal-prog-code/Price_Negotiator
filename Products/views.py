@@ -9,7 +9,7 @@ from rest_framework.response import Response
 from .serializers import *
 import json
 
-# Create your views here.
+## Create your views here.
 def products(request):
     items = Items.objects.all()
     return render(request, 'items/list.html',{'items':items})  
