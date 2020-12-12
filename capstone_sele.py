@@ -4,7 +4,7 @@ from selenium.webdriver.common.action_chains import ActionChains
 import login
 import time
 
-driver=webdriver.Chrome()
+driver=webdriver.Chrome("C:\\Users\\my pc\\Desktop\\chromedriver.exe")
 action = ActionChains(driver)
 driver.get("http://127.0.0.1:8000/")
 time.sleep(3)
@@ -22,11 +22,17 @@ time.sleep(3)
 log_in= driver.find_element_by_css_selector('#content > div > div > div > form > p > input[type=submit]')
 log_in.click()
 time.sleep(3)
-product=driver.find_element_by_link_text('Cycles')
+product=driver.find_element_by_link_text('iPhone')
 product.click()
 time.sleep(3)
 nego=driver.find_element_by_css_selector('#concard > div > p:nth-child(4) > button')
 nego.click()
 time.sleep(3)
+message=driver.find_element_by_css_selector('#myForm > div > div > form > input[type=text]:nth-child(1)')
+message.send_keys('hello')
+submit=driver.find_element_by_css_selector('#myForm > div > div > form > input[type=submit]:nth-child(2)')
+submit.click()
+
+
 
 
