@@ -1,8 +1,8 @@
 # Price_Negotiator
-This E-commerce Chat Bot System project would help to automate the online selling and negotiation based on price of product.
-Django                       - Framework.
-Chatbot                      - RASA(Natural Language Understanding).
-Python                       - Programming language.
-Negotiation                  - Rule-Based Approaches.
-Web-Scrapping                - Selenium & Beautiful soup.
-SQLite3                      - Database.
+1)This E-commerce Chat Bot System project would help to automate the online selling and negotiation based on price of product.
+2)Django                       - Framework.
+3)Chatbot                      - RASA(Natural Language Understanding).
+4)Python                       - Programming language.
+5)Negotiation                  - Rule-Based Approaches.
+6)Web-Scrapping                - Selenium & Beautiful soup.
+7)SQLite3                      - Database.
